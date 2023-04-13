@@ -88,7 +88,7 @@ func (p *PodmanTestIntegration) StartRemoteService() {
 	command := exec.Command(p.PodmanBinary, podmanOptions...)
 	command.Stdout = os.Stdout
 	command.Stderr = os.Stderr
-	fmt.Printf("Running: %s %s\n", p.PodmanBinary, strings.Join(podmanOptions, " "))
+	GinkgoWriter.Printf("Running: %s %s\n", p.PodmanBinary, strings.Join(podmanOptions, " "))
 	err := command.Start()
 	Expect(err).ToNot(HaveOccurred())
 	command.SysProcAttr = &syscall.SysProcAttr{Setpgid: true}
@@ -145,11 +145,11 @@ func getRemoteOptions(p *PodmanTestIntegration, args []string) []string {
 func (p *PodmanTestIntegration) RestoreArtifact(image string) error {
 	tarball := imageTarPath(image)
 	if _, err := os.Stat(tarball); err == nil {
-		fmt.Printf("Restoring %s...\n", image)
+		GinkgoWriter.Printf("Restoring %s...\n", image)
 		args := []string{"load", "-q", "-i", tarball}
 		podmanOptions := getRemoteOptions(p, args)
 		command := exec.Command(p.PodmanBinary, podmanOptions...)
-		fmt.Printf("Running: %s %s\n", p.PodmanBinary, strings.Join(podmanOptions, " "))
+		GinkgoWriter.Printf("Running: %s %s\n", p.PodmanBinary, strings.Join(podmanOptions, " "))
 		if err := command.Start(); err != nil {
 			return err
 		}
