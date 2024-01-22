@@ -63,7 +63,7 @@ github.com/blang/semver/v4
 # github.com/buger/goterm v1.0.4
 ## explicit; go 1.15
 github.com/buger/goterm
-# github.com/bytedance/sonic v1.10.1
+# github.com/bytedance/sonic v1.10.2
 ## explicit; go 1.16
 github.com/bytedance/sonic
 github.com/bytedance/sonic/ast
@@ -97,7 +97,7 @@ github.com/checkpoint-restore/go-criu/v7/stats
 # github.com/chenzhuoyu/base64x v0.0.0-20230717121745-296ad89f973d
 ## explicit; go 1.16
 github.com/chenzhuoyu/base64x
-# github.com/chenzhuoyu/iasm v0.9.0
+# github.com/chenzhuoyu/iasm v0.9.1
 ## explicit; go 1.16
 github.com/chenzhuoyu/iasm/expr
 github.com/chenzhuoyu/iasm/x86_64
@@ -418,7 +418,7 @@ github.com/coreos/stream-metadata-go/release
 github.com/coreos/stream-metadata-go/release/rhcos
 github.com/coreos/stream-metadata-go/stream
 github.com/coreos/stream-metadata-go/stream/rhcos
-# github.com/crc-org/vfkit v0.5.0
+# github.com/crc-org/vfkit v0.5.1
 ## explicit; go 1.18
 github.com/crc-org/vfkit/pkg/cmdline
 github.com/crc-org/vfkit/pkg/config
@@ -515,7 +515,7 @@ github.com/fsnotify/fsnotify
 # github.com/fsouza/go-dockerclient v1.10.0
 ## explicit; go 1.20
 github.com/fsouza/go-dockerclient
-# github.com/gabriel-vasile/mimetype v1.4.2
+# github.com/gabriel-vasile/mimetype v1.4.3
 ## explicit; go 1.20
 github.com/gabriel-vasile/mimetype
 github.com/gabriel-vasile/mimetype/internal/charset
@@ -599,7 +599,7 @@ github.com/go-playground/locales/currency
 # github.com/go-playground/universal-translator v0.18.1
 ## explicit; go 1.18
 github.com/go-playground/universal-translator
-# github.com/go-playground/validator/v10 v10.15.5
+# github.com/go-playground/validator/v10 v10.17.0
 ## explicit; go 1.18
 github.com/go-playground/validator/v10
 # github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572
@@ -713,7 +713,7 @@ github.com/klauspost/compress/internal/cpuinfo
 github.com/klauspost/compress/internal/snapref
 github.com/klauspost/compress/zstd
 github.com/klauspost/compress/zstd/internal/xxhash
-# github.com/klauspost/cpuid/v2 v2.2.5
+# github.com/klauspost/cpuid/v2 v2.2.6
 ## explicit; go 1.15
 github.com/klauspost/cpuid/v2
 # github.com/klauspost/pgzip v1.2.6
@@ -749,7 +749,7 @@ github.com/mailru/easyjson/jwriter
 github.com/manifoldco/promptui
 github.com/manifoldco/promptui/list
 github.com/manifoldco/promptui/screenbuf
-# github.com/mattn/go-isatty v0.0.19
+# github.com/mattn/go-isatty v0.0.20
 ## explicit; go 1.15
 github.com/mattn/go-isatty
 # github.com/mattn/go-runewidth v0.0.15
@@ -902,7 +902,7 @@ github.com/opentracing/opentracing-go/log
 ## explicit
 github.com/ostreedev/ostree-go/pkg/glibobject
 github.com/ostreedev/ostree-go/pkg/otbuiltin
-# github.com/pelletier/go-toml/v2 v2.1.0
+# github.com/pelletier/go-toml/v2 v2.1.1
 ## explicit; go 1.16
 github.com/pelletier/go-toml/v2
 github.com/pelletier/go-toml/v2/internal/characters
@@ -1044,7 +1044,7 @@ github.com/twitchyliquid64/golang-asm/unsafeheader
 # github.com/u-root/uio v0.0.0-20230305220412-3e8cd9d6bf63
 ## explicit; go 1.16
 github.com/u-root/uio/ulog
-# github.com/ugorji/go/codec v1.2.11
+# github.com/ugorji/go/codec v1.2.12
 ## explicit; go 1.11
 github.com/ugorji/go/codec
 # github.com/ulikunitz/xz v0.5.11
@@ -1116,8 +1116,8 @@ go.opentelemetry.io/otel/metric/embedded
 # go.opentelemetry.io/otel/trace v1.19.0
 ## explicit; go 1.20
 go.opentelemetry.io/otel/trace
-# golang.org/x/arch v0.5.0
-## explicit; go 1.17
+# golang.org/x/arch v0.7.0
+## explicit; go 1.18
 golang.org/x/arch/x86/x86asm
 # golang.org/x/crypto v0.18.0
 ## explicit; go 1.18
@@ -1300,8 +1300,8 @@ google.golang.org/grpc/serviceconfig
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
-# google.golang.org/protobuf v1.31.0
-## explicit; go 1.11
+# google.golang.org/protobuf v1.32.0
+## explicit; go 1.17
 google.golang.org/protobuf/encoding/protojson
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
